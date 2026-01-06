@@ -11,7 +11,7 @@ public function __construct($name,$age)
 
 }
 public function personDetails (){
-    echo " His Name:" .$this-> name . ", His Age:" .$this->age;
+    return " His Name:" .$this-> name . ", His Age:" .$this->age;
 }
 
 
